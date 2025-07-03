@@ -1,6 +1,8 @@
-# Define variables
-name = "Gaevin"
-age = 21
+def print_info
+  name = "Gaevin"
+  age = 21
+  puts "My name is #{name} and I am #{age} years old."
+end
 
-# Output the name and age
-puts "My name is #{name} and I am #{age} years old."
+# Call the method
+print_info
